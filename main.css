@@ -124,8 +124,8 @@ li {
 @media screen and (max-width :780px) {
     body,
     html {
-        overflow-x: hidden!important;
-        position: relative;
+        overflow: hidden;
+        max-width: 100%;
     }
     .nav-link {
         position: absolute;
@@ -151,7 +151,6 @@ li {
     }
     .nav-active {
         transform: translateX(0%);
-        position: absolute;
     }
 }
 
