@@ -125,6 +125,7 @@ li {
     body,
     html {
         overflow-x: hidden!important;
+        position: relative;
     }
     .nav-link {
         position: absolute;
@@ -147,6 +148,10 @@ li {
     }
     .report-card {
         width: 80vw;
+    }
+    .nav-active {
+        transform: translateX(0%);
+        position: absolute;
     }
 }
 
