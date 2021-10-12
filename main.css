@@ -152,6 +152,10 @@ li {
     .nav-active {
         transform: translateX(0%);
     }
+    .report,
+    .grid {
+        overflow-y: scroll;
+    }
 }
 
 .nav-active {
