@@ -125,7 +125,7 @@ li {
     body,
     html {
         overflow: hidden;
-        max-width: 100%;
+        left: visible;
     }
     .nav-link {
         position: absolute;
