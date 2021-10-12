@@ -122,9 +122,10 @@ li {
 }
 
 @media screen and (max-width :780px) {
-    .cover {
+    body,
+    html {
         overflow: hidden;
-        position: relative
+        max-width: 100%;
     }
     .nav-link {
         position: absolute;
