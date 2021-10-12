@@ -138,7 +138,7 @@ li {
         flex-direction: column;
         align-items: center;
         transform: translateX(100%);
-        transition: transform 0.5s ease-in
+        transition: transform 0.5s ease-in;
     }
     .nav-link li {
         opacity: 0;
@@ -152,8 +152,8 @@ li {
     .nav-active {
         transform: translateX(0%);
     }
-    .report,
-    .grid {
+    .cover {
+        height: 100vh;
         overflow-y: scroll;
     }
 }
